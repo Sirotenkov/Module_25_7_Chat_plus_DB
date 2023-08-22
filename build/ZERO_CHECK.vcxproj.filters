@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Desktop\Module_20_11_Chat_UDP\build\CMakeFiles\317f75d4d58347358dbcb15b8da14928\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1F566033-1809-33A1-8F20-99CA9CDCB180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
