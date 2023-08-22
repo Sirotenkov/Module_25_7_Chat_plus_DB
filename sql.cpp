@@ -1,5 +1,5 @@
 #include <exception>
-//#include <format>
+//#include <format>  // Одно из направлений доработки данной программы в будущем, для более удобного форматирования.
 #include <sstream>
 #include "sql.h"
 
@@ -56,7 +56,7 @@ bool Sql::recv_messages(std::vector<Message>& messages) {
 bool Sql::send_messages(std::vector<Message> const& messages) {
 	auto success = true;
 	for (auto const& message : messages) {
-		/*std::string const query = std::format("INSERT INTO messages(login_from, login_to, text) values({}, {}, {})",
+		/*std::string const query = std::format("INSERT INTO messages(login_from, login_to, text) values({}, {}, {})",   // в этом месте планирую использовать <format>
 			message.getUserFrom(), message.getUserTo(), message.getUserMessage());*/
 		std::stringstream query;
 		query << "INSERT INTO messages(login_from, login_to, text) values("
